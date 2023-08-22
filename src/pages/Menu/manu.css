@@ -1,0 +1,30 @@
+.Menu-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: -10px;
+}
+.menu-card{
+    border-radius: 20px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+.menu-card img{
+    width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 10px 10px 0 0 ;
+}
+.menu-content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+color: white;
+margin-top: -10px;
+padding: 0 2px;
+border-radius:  0 0 10px 10px;
+}

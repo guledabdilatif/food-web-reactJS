@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+.navbar .nav-left img{
+    width: 70px;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.icon{
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+.nav-right a{
+text-decoration: none;
+color: #ffffff;
+font-size: 24px;
+}
+.displayNone{
+    display: none;
+}
+
+@media(max-width:748px){
+    .nav-right{
+        position: absolute;
+        flex-direction: column;
+        top: 70px;
+        right: 0;
+        background: black;
+        gap: 1rem;
+        z-index: 30;
+        padding: 20px 30px;
+        width: 10rem;
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+}
